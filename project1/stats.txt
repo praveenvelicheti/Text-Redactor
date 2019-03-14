@@ -1,0 +1,29 @@
+Word    Length    file    Type
+last November    13    input.txt    type:Date
+2020    4    input.txt    type:Date
+20th January 1989    17    input.txt    type:Date
+02/03/2010    10    input.txt    type:Date
+Georgia    7    input.txt    type:Address
+Norman    6    input.txt    type:Address
+Oklahoma    8    input.txt    type:Address
+1013 Elm Street    15    input.txt    type:Address
+405-489-4352    12    input.txt    type:Phone number
+he    2    input.txt    type:Gender
+he    2    input.txt    type:Gender
+She    3    input.txt    type:Gender
+She    3    input.txt    type:Gender
+She    3    input.txt    type:Gender
+she    3    input.txt    type:Gender
+she    3    input.txt    type:Gender
+she    3    input.txt    type:Gender
+she    3    input.txt    type:Gender
+she    3    input.txt    type:Gender
+him    3    input.txt    type:Gender
+him    3    input.txt    type:Gender
+him    3    input.txt    type:Gender
+her    3    input.txt    type:Gender
+her    3    input.txt    type:Gender
+her    3    input.txt    type:Gender
+his    3    input.txt    type:Gender
+woman    5    input.txt    type:Gender
+men    3    input.txt    type:Gender

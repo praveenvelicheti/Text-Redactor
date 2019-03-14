@@ -9,6 +9,8 @@ verify_ssl = true
 nltk = "*"
 spacy = "*"
 thesaurus = "*"
+pandas = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"
