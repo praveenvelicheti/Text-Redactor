@@ -10,6 +10,10 @@ import thesaurus as th
 from thesaurus import Word
 import glob
 import sys
+import os
+import numpy as np
+import pandas as pd
+
 
 #Read Text
 def read_text(filename):
@@ -144,7 +148,14 @@ for i in files:
             data = reda_gender(data,arg_ls[j])
 
         if arg_ls[j] == '--output':
-            file = open(i.split('.')[0]+'.redacted.txt','w')
+            os.mkdir(arg_ls[j+1])
+            file = open(arg_ls[j+1]+i.split('.')[0]+'.redacted.txt','w')
 
             file.write(data)
             file.close()
+
+        if arg_ls[j] == '--stats':
+            file = open('stats.txt','w')
+
+            df = pd.DataFrame(stats)
+            np.savetxt(r'stats.txt', df.values, fmt='%s')
